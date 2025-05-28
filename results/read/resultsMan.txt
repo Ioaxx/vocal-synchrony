@@ -1,0 +1,1776 @@
+F0finEnv_max:
+  mean: 94.83851592592592
+  std: 52.32099990563285
+  min: 0.0
+  max: 138.6021
+
+F0finEnv_min:
+  mean: 67.06493666666665
+  std: 45.93547104242839
+  min: 0.0
+  max: 114.4566
+
+F0finEnv_range:
+  mean: 27.77358133333334
+  std: 27.065557298946818
+  min: 0.0
+  max: 111.8119
+
+F0finEnv_maxPos:
+  mean: 194.0
+  std: 178.84845325238132
+  min: 0.0
+  max: 464.0
+
+F0finEnv_minPos:
+  mean: 100.07407407407408
+  std: 141.35713797272658
+  min: 0.0
+  max: 432.0
+
+F0finEnv_maxameandist:
+  mean: 13.489226481481479
+  std: 15.783704652299392
+  min: 0.0
+  max: 74.32555
+
+F0finEnv_minameandist:
+  mean: 14.284352962962963
+  std: 14.29694863514678
+  min: 0.0
+  max: 64.21657
+
+F0finEnv_linregc1:
+  mean: 0.021815980440740738
+  std: 0.06636811784324817
+  min: -0.07030431
+  max: 0.2493742
+
+F0finEnv_linregc2:
+  mean: 75.9062048888889
+  std: 53.39382753407921
+  min: -27.49226
+  max: 133.6896
+
+F0finEnv_linregerrA:
+  mean: 5.564192207407406
+  std: 4.963261428212997
+  min: 0.0
+  max: 18.5623
+
+F0finEnv_linregerrQ:
+  mean: 76.96367155555554
+  std: 114.80285384371578
+  min: 0.0
+  max: 477.136
+
+F0finEnv_qregc1:
+  mean: -1.6566123888888887e-05
+  std: 0.0003117645322786178
+  min: -0.0008778819
+  max: 0.0008991389
+
+F0finEnv_qregc2:
+  mean: 0.030082469518518517
+  std: 0.17271320890693131
+  min: -0.2397928
+  max: 0.6874373
+
+F0finEnv_qregc3:
+  mean: 75.22008544444444
+  std: 53.72925353982306
+  min: -34.36153
+  max: 136.329
+
+F0finEnv_qregerrA:
+  mean: 2115.129996296296
+  std: 1593.3415812198684
+  min: 0.0
+  max: 5588.396
+
+F0finEnv_qregerrQ:
+  mean: 22184.996129629635
+  std: 24835.157235497827
+  min: 0.0
+  max: 104772.6
+
+F0finEnv_centroid:
+  mean: 0.4091104925925926
+  std: 0.23452813760928384
+  min: 0.0
+  max: 0.8524625
+
+F0finEnv_variance:
+  mean: 175.24511562962968
+  std: 404.0425608860458
+  min: 0.0
+  max: 1772.704
+
+F0finEnv_stddev:
+  mean: 9.031630481481482
+  std: 9.862941953940844
+  min: 0.0
+  max: 42.10349
+
+F0finEnv_skewness:
+  mean: -0.17984352185185185
+  std: 0.94822554498478
+  min: -2.375279
+  max: 2.017753
+
+F0finEnv_kurtosis:
+  mean: 2.42555262962963
+  std: 2.5435643953676825
+  min: 0.0
+  max: 11.15905
+
+F0finEnv_quartile1:
+  mean: 73.6667722222222
+  std: 49.239934928612044
+  min: 0.0
+  max: 114.5503
+
+F0finEnv_quartile2:
+  mean: 81.58999555555555
+  std: 49.70948099624993
+  min: 0.0
+  max: 116.7467
+
+F0finEnv_quartile3:
+  mean: 88.85105444444444
+  std: 49.892029411499756
+  min: 0.0
+  max: 130.5405
+
+F0finEnv_upleveltime25:
+  mean: 0.5205185185185185
+  std: 0.3579998249215698
+  min: 0.0
+  max: 0.97
+
+F0finEnv_downleveltime25:
+  mean: 0.47948148148148156
+  std: 0.3579998249215698
+  min: 0.03
+  max: 1.0
+
+F0finEnv_upleveltime50:
+  mean: 0.4291851851851852
+  std: 0.31480995940616385
+  min: 0.0
+  max: 0.968
+
+F0finEnv_downleveltime50:
+  mean: 0.5708148148148148
+  std: 0.31480995940616385
+  min: 0.032
+  max: 1.0
+
+F0finEnv_upleveltime75:
+  mean: 0.2697777777777778
+  std: 0.2191362999338949
+  min: 0.0
+  max: 0.696
+
+F0finEnv_downleveltime75:
+  mean: 0.7302222222222222
+  std: 0.2191362999338949
+  min: 0.304
+  max: 1.0
+
+F0finEnv_upleveltime90:
+  mean: 0.14177777777777778
+  std: 0.1432827579227477
+  min: 0.0
+  max: 0.562
+
+F0finEnv_downleveltime90:
+  mean: 0.8582222222222221
+  std: 0.1432827579227477
+  min: 0.438
+  max: 1.0
+
+F0finEnv_risetime:
+  mean: 0.033325911407407406
+  std: 0.02774691560760289
+  min: 0.0
+  max: 0.09819639
+
+F0finEnv_falltime:
+  mean: 0.03006012148148148
+  std: 0.024955889538185456
+  min: 0.0
+  max: 0.0741483
+
+F0finEnv_leftctime:
+  mean: 0.033987802962962964
+  std: 0.02775114236710568
+  min: 0.0
+  max: 0.09638554
+
+F0finEnv_rightctime:
+  mean: 0.04023501333333333
+  std: 0.030709316201943816
+  min: 0.0
+  max: 0.1004016
+
+F0finEnv_duration:
+  mean: 500.0
+  std: 0.0
+  min: 500.0
+  max: 500.0
+
+jitterLocal_max:
+  mean: 0.4562314111111111
+  std: 0.2539924552157638
+  min: 0.0
+  max: 0.6494594
+
+jitterLocal_min:
+  mean: 0.0002787944674074074
+  std: 0.00026660509018216805
+  min: 0.0
+  max: 0.0008678712
+
+jitterLocal_range:
+  mean: 0.4559526222222223
+  std: 0.2538217239578073
+  min: 0.0
+  max: 0.6488218
+
+jitterLocal_maxPos:
+  mean: 214.37037037037038
+  std: 180.50104371063006
+  min: 0.0
+  max: 498.0
+
+jitterLocal_minPos:
+  mean: 146.44444444444446
+  std: 147.0858810704019
+  min: 0.0
+  max: 437.0
+
+jitterLocal_maxameandist:
+  mean: 0.3685387481481481
+  std: 0.2053678238351886
+  min: 0.0
+  max: 0.5314972
+
+jitterLocal_minameandist:
+  mean: 0.08741387111111111
+  std: 0.05205698332188372
+  min: 0.0
+  max: 0.1643215
+
+jitterLocal_linregc1:
+  mean: 3.683341544444444e-05
+  std: 0.0001336964398007481
+  min: -0.000219943
+  max: 0.0003763835
+
+jitterLocal_linregc2:
+  mean: 0.07850273129629629
+  std: 0.061397063795501805
+  min: -0.04056273
+  max: 0.1645455
+
+jitterLocal_linregerrA:
+  mean: 0.06830637
+  std: 0.038801398631344165
+  min: 0.0
+  max: 0.1117333
+
+jitterLocal_linregerrQ:
+  mean: 0.01009340737037037
+  std: 0.0059953158756306585
+  min: 0.0
+  max: 0.01982697
+
+jitterLocal_qregc1:
+  mean: 1.7178192814814815e-07
+  std: 7.07907088249173e-07
+  min: -1.09948e-06
+  max: 1.798476e-06
+
+jitterLocal_qregc2:
+  mean: -4.888579037037037e-05
+  std: 0.0003537732560823791
+  min: -0.0007750773
+  max: 0.0005249814
+
+jitterLocal_qregc3:
+  mean: 0.08561742703703705
+  std: 0.0687755753182978
+  min: -0.02008689
+  max: 0.2019368
+
+jitterLocal_qregerrA:
+  mean: 33.63315111111111
+  std: 19.261782651993784
+  min: 0.0
+  max: 52.98375
+
+jitterLocal_qregerrQ:
+  mean: 4.957802148148149
+  std: 2.9464863142435584
+  min: 0.0
+  max: 9.351948
+
+jitterLocal_centroid:
+  mean: 0.4113086851851851
+  std: 0.23860362978640748
+  min: 0.0
+  max: 0.8547136
+
+jitterLocal_variance:
+  mean: 0.010480267407407408
+  std: 0.006123339458516703
+  min: 0.0
+  max: 0.02089225
+
+jitterLocal_stddev:
+  mean: 0.08990520444444441
+  std: 0.04989517437615735
+  min: 0.0
+  max: 0.1445415
+
+jitterLocal_skewness:
+  mean: 1.1793092222222223
+  std: 0.7595897643462824
+  min: 0.0
+  max: 3.388005
+
+jitterLocal_kurtosis:
+  mean: 4.2376536666666675
+  std: 3.1287593323636473
+  min: 0.0
+  max: 15.50666
+
+jitterLocal_quartile1:
+  mean: 0.019077751111111114
+  std: 0.014048253721828625
+  min: 0.0
+  max: 0.04369837
+
+jitterLocal_quartile2:
+  mean: 0.05754120259259259
+  std: 0.03897604227851293
+  min: 0.0
+  max: 0.1314431
+
+jitterLocal_quartile3:
+  mean: 0.13290525703703707
+  std: 0.08220143888722006
+  min: 0.0
+  max: 0.2579046
+
+jitterLocal_upleveltime25:
+  mean: 0.23148148148148148
+  std: 0.13604025715556248
+  min: 0.0
+  max: 0.414
+
+jitterLocal_downleveltime25:
+  mean: 0.7685185185185185
+  std: 0.13604025715556248
+  min: 0.586
+  max: 1.0
+
+jitterLocal_upleveltime50:
+  mean: 0.06822222222222223
+  std: 0.04526956299030656
+  min: 0.0
+  max: 0.158
+
+jitterLocal_downleveltime50:
+  mean: 0.9317777777777778
+  std: 0.04526956299030655
+  min: 0.842
+  max: 1.0
+
+jitterLocal_upleveltime75:
+  mean: 0.01881481481481482
+  std: 0.015071718387652257
+  min: 0.0
+  max: 0.05
+
+jitterLocal_downleveltime75:
+  mean: 0.981185185185185
+  std: 0.015071718387652271
+  min: 0.95
+  max: 1.0
+
+jitterLocal_upleveltime90:
+  mean: 0.007481481481481482
+  std: 0.006290226670554216
+  min: 0.0
+  max: 0.024
+
+jitterLocal_downleveltime90:
+  mean: 0.9925185185185185
+  std: 0.00629022667055422
+  min: 0.976
+  max: 1.0
+
+jitterLocal_risetime:
+  mean: 0.1956505588888889
+  std: 0.11779952169271979
+  min: 0.0
+  max: 0.3026052
+
+jitterLocal_falltime:
+  mean: 0.1968381255555556
+  std: 0.11917379764641582
+  min: 0.0
+  max: 0.3126253
+
+jitterLocal_leftctime:
+  mean: 0.3004610992592593
+  std: 0.179117180295448
+  min: 0.0
+  max: 0.4497992
+
+jitterLocal_rightctime:
+  mean: 0.2825375562962963
+  std: 0.168283315049207
+  min: 0.0
+  max: 0.439759
+
+jitterLocal_duration:
+  mean: 500.0
+  std: 0.0
+  min: 500.0
+  max: 500.0
+
+jitterDDP_max:
+  mean: 0.411409637037037
+  std: 0.23230606447680371
+  min: 0.0
+  max: 0.627219
+
+jitterDDP_min:
+  mean: 0.00011805481002222224
+  std: 0.00013941740131334106
+  min: 0.0
+  max: 0.000446832
+
+jitterDDP_range:
+  mean: 0.4112915814814815
+  std: 0.2322377359233753
+  min: 0.0
+  max: 0.6271486
+
+jitterDDP_maxPos:
+  mean: 175.03703703703704
+  std: 163.6354958393059
+  min: 0.0
+  max: 465.0
+
+jitterDDP_minPos:
+  mean: 160.92592592592592
+  std: 147.82315992322248
+  min: 0.0
+  max: 453.0
+
+jitterDDP_maxameandist:
+  mean: 0.3451269666666667
+  std: 0.19608975436973516
+  min: 0.0
+  max: 0.5323907
+
+jitterDDP_minameandist:
+  mean: 0.06616462555555556
+  std: 0.039342914740963436
+  min: 0.0
+  max: 0.1235441
+
+jitterDDP_linregc1:
+  mean: 2.8239308814814817e-05
+  std: 0.00011534277556609166
+  min: -0.0001567983
+  max: 0.0002935025
+
+jitterDDP_linregc2:
+  mean: 0.05923697657407408
+  std: 0.048124029687635156
+  min: -0.03980339
+  max: 0.1292908
+
+jitterDDP_linregerrA:
+  mean: 0.05396873555555556
+  std: 0.030702825599676468
+  min: 0.0
+  max: 0.09016933
+
+jitterDDP_linregerrQ:
+  mean: 0.006715976481481482
+  std: 0.004119138633606492
+  min: 0.0
+  max: 0.01340363
+
+jitterDDP_qregc1:
+  mean: 1.2685570481481482e-07
+  std: 5.700012484285376e-07
+  min: -1.126299e-06
+  max: 1.317612e-06
+
+jitterDDP_qregc2:
+  mean: -3.506168944444445e-05
+  std: 0.00029157399768435537
+  min: -0.0004357767
+  max: 0.0006630767
+
+jitterDDP_qregc3:
+  mean: 0.0644909585185185
+  std: 0.05408657312512027
+  min: -0.0300162
+  max: 0.1477619
+
+jitterDDP_qregerrA:
+  mean: 26.635238518518516
+  std: 15.278941821324816
+  min: 0.0
+  max: 44.0888
+
+jitterDDP_qregerrQ:
+  mean: 3.3008782962962964
+  std: 2.0288555103147687
+  min: 0.0
+  max: 6.52142
+
+jitterDDP_centroid:
+  mean: 0.4098615259259259
+  std: 0.23894558483144812
+  min: 0.0
+  max: 0.8648652
+
+jitterDDP_variance:
+  mean: 0.006999489851851852
+  std: 0.004248945394344611
+  min: 0.0
+  max: 0.01424467
+
+jitterDDP_stddev:
+  mean: 0.07330627259259259
+  std: 0.04108779200190729
+  min: 0.0
+  max: 0.1193511
+
+jitterDDP_skewness:
+  mean: 1.3847824074074073
+  std: 0.8467586972031943
+  min: 0.0
+  max: 3.184521
+
+jitterDDP_kurtosis:
+  mean: 5.192972962962963
+  std: 3.462386548071714
+  min: 0.0
+  max: 13.91333
+
+jitterDDP_quartile1:
+  mean: 0.01409771851851852
+  std: 0.010201524157623817
+  min: 0.0
+  max: 0.03367424
+
+jitterDDP_quartile2:
+  mean: 0.03901546037037037
+  std: 0.02649970776710123
+  min: 0.0
+  max: 0.08309609
+
+jitterDDP_quartile3:
+  mean: 0.0929651548888889
+  std: 0.05931992007671757
+  min: 0.0
+  max: 0.1802711
+
+jitterDDP_upleveltime25:
+  mean: 0.18385185185185188
+  std: 0.11284560715478052
+  min: 0.0
+  max: 0.342
+
+jitterDDP_downleveltime25:
+  mean: 0.8161481481481482
+  std: 0.11284560715478052
+  min: 0.658
+  max: 1.0
+
+jitterDDP_upleveltime50:
+  mean: 0.04970370370370371
+  std: 0.03712641068525707
+  min: 0.0
+  max: 0.136
+
+jitterDDP_downleveltime50:
+  mean: 0.9502962962962965
+  std: 0.03712641068525706
+  min: 0.864
+  max: 1.0
+
+jitterDDP_upleveltime75:
+  mean: 0.01088888888888889
+  std: 0.009386296612752237
+  min: 0.0
+  max: 0.042
+
+jitterDDP_downleveltime75:
+  mean: 0.989111111111111
+  std: 0.009386296612752244
+  min: 0.958
+  max: 1.0
+
+jitterDDP_upleveltime90:
+  mean: 0.00451851851851852
+  std: 0.0034010221356162284
+  min: 0.0
+  max: 0.012
+
+jitterDDP_downleveltime90:
+  mean: 0.9954814814814815
+  std: 0.003401022135616231
+  min: 0.988
+  max: 1.0
+
+jitterDDP_risetime:
+  mean: 0.19884212962962963
+  std: 0.11976723701410877
+  min: 0.0
+  max: 0.3086172
+
+jitterDDP_falltime:
+  mean: 0.19349810999999997
+  std: 0.11764887845347963
+  min: 0.0
+  max: 0.3026052
+
+jitterDDP_leftctime:
+  mean: 0.2965937822222222
+  std: 0.17718870729381037
+  min: 0.0
+  max: 0.4497992
+
+jitterDDP_rightctime:
+  mean: 0.2861073896296296
+  std: 0.17050579444610126
+  min: 0.0
+  max: 0.4417671
+
+jitterDDP_duration:
+  mean: 500.0
+  std: 0.0
+  min: 500.0
+  max: 500.0
+
+shimmerLocal_max:
+  mean: 0.7777777777777778
+  std: 0.42365927286816174
+  min: 0.0
+  max: 1.0
+
+shimmerLocal_min:
+  mean: 0.0010586863666666667
+  std: 0.0011228118096391318
+  min: 0.0
+  max: 0.003251434
+
+shimmerLocal_range:
+  mean: 0.7767190962962964
+  std: 0.4230837008745701
+  min: 0.0
+  max: 1.0
+
+shimmerLocal_maxPos:
+  mean: 53.7037037037037
+  std: 72.36967852885883
+  min: 0.0
+  max: 348.0
+
+shimmerLocal_minPos:
+  mean: 203.22222222222223
+  std: 172.9360338242779
+  min: 0.0
+  max: 483.0
+
+shimmerLocal_maxameandist:
+  mean: 0.5591689222222223
+  std: 0.30876695790305786
+  min: 0.0
+  max: 0.9192259
+
+shimmerLocal_minameandist:
+  mean: 0.21755017407407407
+  std: 0.12868374015901451
+  min: 0.0
+  max: 0.3424318
+
+shimmerLocal_linregc1:
+  mean: 5.582234148148148e-05
+  std: 0.0002323565611132958
+  min: -0.0002828399
+  max: 0.0007628252
+
+shimmerLocal_linregc2:
+  mean: 0.20468119070370372
+  std: 0.14705401074242436
+  min: -0.07366746
+  max: 0.3816376
+
+shimmerLocal_linregerrA:
+  mean: 0.15500057814814813
+  std: 0.08919564219946666
+  min: 0.0
+  max: 0.2458777
+
+shimmerLocal_linregerrQ:
+  mean: 0.051256755555555554
+  std: 0.030070412021988083
+  min: 0.0
+  max: 0.08740572
+
+shimmerLocal_qregc1:
+  mean: 1.6300469074074075e-07
+  std: 1.8663052637236103e-06
+  min: -3.379578e-06
+  max: 4.700755e-06
+
+shimmerLocal_qregc2:
+  mean: -2.5516967407407404e-05
+  std: 0.0009731955082694716
+  min: -0.002249198
+  max: 0.001997528
+
+shimmerLocal_qregc3:
+  mean: 0.21143236022222223
+  std: 0.17256717566190544
+  min: -0.03250202
+  max: 0.492406
+
+shimmerLocal_qregerrA:
+  mean: 76.12807185185184
+  std: 44.17597299247357
+  min: 0.0
+  max: 121.6877
+
+shimmerLocal_qregerrQ:
+  mean: 25.041469259259262
+  std: 14.735473972714471
+  min: 0.0
+  max: 43.3877
+
+shimmerLocal_centroid:
+  mean: 0.40629459999999995
+  std: 0.23212681946528876
+  min: 0.0
+  max: 0.818307
+
+shimmerLocal_variance:
+  mean: 0.052404794074074085
+  std: 0.030109337873434172
+  min: 0.0
+  max: 0.0875166
+
+shimmerLocal_stddev:
+  mean: 0.20117332962962967
+  std: 0.11132423078453804
+  min: 0.0
+  max: 0.295832
+
+shimmerLocal_skewness:
+  mean: 1.0130007740740739
+  std: 0.752731921160604
+  min: 0.0
+  max: 3.550169
+
+shimmerLocal_kurtosis:
+  mean: 3.3414744074074076
+  std: 3.192979027741265
+  min: 0.0
+  max: 16.73041
+
+shimmerLocal_quartile1:
+  mean: 0.06670148851851852
+  std: 0.046176042073349584
+  min: 0.0
+  max: 0.1244112
+
+shimmerLocal_quartile2:
+  mean: 0.1540407703703704
+  std: 0.09973846721221925
+  min: 0.0
+  max: 0.2694006
+
+shimmerLocal_quartile3:
+  mean: 0.31112939259259254
+  std: 0.19080720154950193
+  min: 0.0
+  max: 0.5168056
+
+shimmerLocal_upleveltime25:
+  mean: 0.3244444444444444
+  std: 0.1960088956641692
+  min: 0.0
+  max: 0.506
+
+shimmerLocal_downleveltime25:
+  mean: 0.6755555555555555
+  std: 0.19600889566416924
+  min: 0.494
+  max: 1.0
+
+shimmerLocal_upleveltime50:
+  mean: 0.14570370370370372
+  std: 0.0928484351447665
+  min: 0.0
+  max: 0.262
+
+shimmerLocal_downleveltime50:
+  mean: 0.8542962962962964
+  std: 0.09284843514476647
+  min: 0.738
+  max: 1.0
+
+shimmerLocal_upleveltime75:
+  mean: 0.06637037037037039
+  std: 0.04248452039195538
+  min: 0.0
+  max: 0.132
+
+shimmerLocal_downleveltime75:
+  mean: 0.9336296296296297
+  std: 0.042484520391955376
+  min: 0.868
+  max: 1.0
+
+shimmerLocal_upleveltime90:
+  mean: 0.038
+  std: 0.028120619316957276
+  min: 0.0
+  max: 0.09
+
+shimmerLocal_downleveltime90:
+  mean: 0.9619999999999999
+  std: 0.02812061931695726
+  min: 0.91
+  max: 1.0
+
+shimmerLocal_risetime:
+  mean: 0.19587322962962958
+  std: 0.11791282113338852
+  min: 0.0
+  max: 0.3126253
+
+shimmerLocal_falltime:
+  mean: 0.19617012185185187
+  std: 0.1190765528322634
+  min: 0.0
+  max: 0.2985972
+
+shimmerLocal_leftctime:
+  mean: 0.29756061296296293
+  std: 0.1768060048748321
+  min: 0.0
+  max: 0.4437751
+
+shimmerLocal_rightctime:
+  mean: 0.2849174525925926
+  std: 0.16965594289841218
+  min: 0.0
+  max: 0.435743
+
+shimmerLocal_duration:
+  mean: 500.0
+  std: 0.0
+  min: 500.0
+  max: 500.0
+
+jitterLocal_de_max:
+  mean: 0.10483908518518519
+  std: 0.060056624368575985
+  min: 0.0
+  max: 0.1907928
+
+jitterLocal_de_min:
+  mean: -0.11830042592592592
+  std: 0.0670710095601875
+  min: -0.1877805
+  max: 0.0
+
+jitterLocal_de_range:
+  mean: 0.22313947777777776
+  std: 0.12522209553839297
+  min: 0.0
+  max: 0.3463059
+
+jitterLocal_de_maxPos:
+  mean: 238.33333333333334
+  std: 182.62024489676344
+  min: 0.0
+  max: 482.0
+
+jitterLocal_de_minPos:
+  mean: 213.92592592592592
+  std: 172.86943181442015
+  min: 0.0
+  max: 486.0
+
+jitterLocal_de_maxameandist:
+  mean: 0.10477013333333333
+  std: 0.06002459803522861
+  min: 0.0
+  max: 0.1909084
+
+jitterLocal_de_minameandist:
+  mean: 0.11836934814814815
+  std: 0.06711667142648728
+  min: 0.0
+  max: 0.1881247
+
+jitterLocal_de_linregc1:
+  mean: 5.675654881481482e-07
+  std: 3.090950700701272e-06
+  min: -4.480557e-06
+  max: 8.546779e-06
+
+jitterLocal_de_linregc2:
+  mean: -7.266639185185187e-05
+  std: 0.0008152439988041419
+  min: -0.00217582
+  max: 0.001074366
+
+jitterLocal_de_linregerrA:
+  mean: 0.018522172
+  std: 0.011162183544477252
+  min: 0.0
+  max: 0.03532685
+
+jitterLocal_de_linregerrQ:
+  mean: 0.0009953040037037038
+  std: 0.000629111879116948
+  min: 0.0
+  max: 0.002353192
+
+jitterLocal_de_qregc1:
+  mean: 3.8571948111111105e-09
+  std: 3.4708267779403406e-08
+  min: -5.202936e-08
+  max: 7.294656e-08
+
+jitterLocal_de_qregc2:
+  mean: -1.35717432962963e-06
+  std: 1.7351958857973697e-05
+  min: -3.294972e-05
+  max: 3.084327e-05
+
+jitterLocal_de_qregc3:
+  mean: 8.708706629629631e-05
+  std: 0.0017848763576147537
+  min: -0.003740936
+  max: 0.003224696
+
+jitterLocal_de_qregerrA:
+  mean: 9.26683462962963
+  std: 5.579768357969333
+  min: 0.0
+  max: 17.67719
+
+jitterLocal_de_qregerrQ:
+  mean: 0.49744800370370373
+  std: 0.314425304825153
+  min: 0.0
+  max: 1.176301
+
+jitterLocal_de_centroid:
+  mean: 0.4127729555555555
+  std: 0.23957933958956915
+  min: 0.0
+  max: 0.8638675
+
+jitterLocal_de_variance:
+  mean: 0.000995502314814815
+  std: 0.0006291708579562488
+  min: 0.0
+  max: 0.002353282
+
+jitterLocal_de_stddev:
+  mean: 0.027543898148148147
+  std: 0.015682635122019766
+  min: 0.0
+  max: 0.04851063
+
+jitterLocal_de_skewness:
+  mean: -0.21202240333333333
+  std: 0.3354702946881847
+  min: -1.497171
+  max: 0.1998944
+
+jitterLocal_de_kurtosis:
+  mean: 4.922945851851852
+  std: 4.514398402797966
+  min: 0.0
+  max: 23.88198
+
+jitterLocal_de_quartile1:
+  mean: -0.01106730585185185
+  std: 0.00762277423769618
+  min: -0.02586531
+  max: 0.0
+
+jitterLocal_de_quartile2:
+  mean: 0.00018977129555555557
+  std: 0.0004119324011236564
+  min: -0.0003880501
+  max: 0.001295463
+
+jitterLocal_de_quartile3:
+  mean: 0.011744442333333334
+  std: 0.008021199221325952
+  min: 0.0
+  max: 0.02470847
+
+jitterLocal_de_upleveltime25:
+  mean: 0.7549629629629628
+  std: 0.41159478593182863
+  min: 0.0
+  max: 0.99
+
+jitterLocal_de_downleveltime25:
+  mean: 0.24503703703703705
+  std: 0.4115947859318286
+  min: 0.01
+  max: 1.0
+
+jitterLocal_de_upleveltime50:
+  mean: 0.5125925925925926
+  std: 0.3277685932365252
+  min: 0.0
+  max: 0.964
+
+jitterLocal_de_downleveltime50:
+  mean: 0.48740740740740746
+  std: 0.3277685932365252
+  min: 0.036
+  max: 1.0
+
+jitterLocal_de_upleveltime75:
+  mean: 0.036444444444444446
+  std: 0.030505148787771916
+  min: 0.0
+  max: 0.104
+
+jitterLocal_de_downleveltime75:
+  mean: 0.9635555555555556
+  std: 0.03050514878777191
+  min: 0.896
+  max: 1.0
+
+jitterLocal_de_upleveltime90:
+  mean: 0.00562962962962963
+  std: 0.0057388564134741105
+  min: 0.0
+  max: 0.02
+
+jitterLocal_de_downleveltime90:
+  mean: 0.9943703703703705
+  std: 0.005738856413474116
+  min: 0.98
+  max: 1.0
+
+jitterLocal_de_risetime:
+  mean: 0.36153789259259267
+  std: 0.21181481547813794
+  min: 0.0
+  max: 0.5230461
+
+jitterLocal_de_falltime:
+  mean: 0.3413493740740741
+  std: 0.1993064037542265
+  min: 0.0
+  max: 0.4769539
+
+jitterLocal_de_leftctime:
+  mean: 0.3650899814814815
+  std: 0.21099853622422093
+  min: 0.0
+  max: 0.5080321
+
+jitterLocal_de_rightctime:
+  mean: 0.3677673555555555
+  std: 0.21385502096686787
+  min: 0.0
+  max: 0.5200803
+
+jitterLocal_de_duration:
+  mean: 500.0
+  std: 0.0
+  min: 500.0
+  max: 500.0
+
+jitterDDP_de_max:
+  mean: 0.09532127444444444
+  std: 0.059244311086520195
+  min: 0.0
+  max: 0.185694
+
+jitterDDP_de_min:
+  mean: -0.10924673185185185
+  std: 0.06583010856451582
+  min: -0.1854801
+  max: 0.0
+
+jitterDDP_de_range:
+  mean: 0.20456799259259256
+  std: 0.12257148432711207
+  min: 0.0
+  max: 0.3697974
+
+jitterDDP_de_maxPos:
+  mean: 228.85185185185185
+  std: 183.04932158042578
+  min: 0.0
+  max: 498.0
+
+jitterDDP_de_minPos:
+  mean: 173.8148148148148
+  std: 162.90559725876093
+  min: 0.0
+  max: 469.0
+
+jitterDDP_de_maxameandist:
+  mean: 0.09526873555555555
+  std: 0.05924732650256818
+  min: 0.0
+  max: 0.185829
+
+jitterDDP_de_minameandist:
+  mean: 0.10929926407407405
+  std: 0.06583381899966882
+  min: 0.0
+  max: 0.1854829
+
+jitterDDP_de_linregc1:
+  mean: 3.3560556074074075e-07
+  std: 2.096814398732728e-06
+  min: -3.049027e-06
+  max: 5.166019e-06
+
+jitterDDP_de_linregc2:
+  mean: -3.120062814814813e-05
+  std: 0.0005210830806064831
+  min: -0.001388567
+  max: 0.0007722726
+
+jitterDDP_de_linregerrA:
+  mean: 0.014737481148148147
+  std: 0.00887039934477301
+  min: 0.0
+  max: 0.0273387
+
+jitterDDP_de_linregerrQ:
+  mean: 0.0006699099555555555
+  std: 0.0004338149903805364
+  min: 0.0
+  max: 0.001467258
+
+jitterDDP_de_qregc1:
+  mean: 2.8947940740740736e-09
+  std: 2.725315005486765e-08
+  min: -3.407302e-08
+  max: 9.150256e-08
+
+jitterDDP_de_qregc2:
+  mean: -1.1088971481481483e-06
+  std: 1.3075296398152901e-05
+  min: -4.049376e-05
+  max: 1.914236e-05
+
+jitterDDP_de_qregc3:
+  mean: 8.869311255555557e-05
+  std: 0.001250362608043248
+  min: -0.002365105
+  max: 0.003115261
+
+jitterDDP_de_qregerrA:
+  mean: 7.372661666666667
+  std: 4.432828282573823
+  min: 0.0
+  max: 13.67187
+
+jitterDDP_de_qregerrQ:
+  mean: 0.3348293555555555
+  std: 0.21683090310297867
+  min: 0.0
+  max: 0.7335283
+
+jitterDDP_de_centroid:
+  mean: 0.4135761259259259
+  std: 0.24089297171835716
+  min: 0.0
+  max: 0.8755142
+
+jitterDDP_de_variance:
+  mean: 0.0006700004962962962
+  std: 0.0004338412695867229
+  min: 0.0
+  max: 0.001467269
+
+jitterDDP_de_stddev:
+  mean: 0.022548918518518517
+  std: 0.012952223891550202
+  min: 0.0
+  max: 0.03830494
+
+jitterDDP_de_skewness:
+  mean: -0.2462965203703704
+  std: 0.5679886988093881
+  min: -2.494546
+  max: 0.3197271
+
+jitterDDP_de_kurtosis:
+  mean: 6.302709444444445
+  std: 5.932073752467372
+  min: 0.0
+  max: 30.62658
+
+jitterDDP_de_quartile1:
+  mean: -0.008906452703703703
+  std: 0.006017593793134657
+  min: -0.01863372
+  max: 0.0
+
+jitterDDP_de_quartile2:
+  mean: 9.534307037037036e-05
+  std: 0.00020982241598077614
+  min: -0.000174584
+  max: 0.0005862861
+
+jitterDDP_de_quartile3:
+  mean: 0.009151654629629628
+  std: 0.006194380558698275
+  min: 0.0
+  max: 0.02127796
+
+jitterDDP_de_upleveltime25:
+  mean: 0.7614074074074073
+  std: 0.41489268855927436
+  min: 0.0
+  max: 0.994
+
+jitterDDP_de_downleveltime25:
+  mean: 0.23859259259259252
+  std: 0.41489268855927436
+  min: 0.006
+  max: 1.0
+
+jitterDDP_de_upleveltime50:
+  mean: 0.47192592592592597
+  std: 0.3273772143198736
+  min: 0.0
+  max: 0.976
+
+jitterDDP_de_downleveltime50:
+  mean: 0.5280740740740741
+  std: 0.32737721431987366
+  min: 0.024
+  max: 1.0
+
+jitterDDP_de_upleveltime75:
+  mean: 0.03311111111111112
+  std: 0.030761281024307332
+  min: 0.0
+  max: 0.122
+
+jitterDDP_de_downleveltime75:
+  mean: 0.9668888888888888
+  std: 0.03076128102430733
+  min: 0.878
+  max: 1.0
+
+jitterDDP_de_upleveltime90:
+  mean: 0.0054074074074074085
+  std: 0.005315139908855857
+  min: 0.0
+  max: 0.016
+
+jitterDDP_de_downleveltime90:
+  mean: 0.9945925925925926
+  std: 0.005315139908855862
+  min: 0.984
+  max: 1.0
+
+jitterDDP_de_risetime:
+  mean: 0.35493208888888894
+  std: 0.2076218187558652
+  min: 0.0
+  max: 0.501002
+
+jitterDDP_de_falltime:
+  mean: 0.3476582814814814
+  std: 0.20394989678164366
+  min: 0.0
+  max: 0.5130261
+
+jitterDDP_de_leftctime:
+  mean: 0.3641231518518518
+  std: 0.21077200735417764
+  min: 0.0
+  max: 0.5080321
+
+jitterDDP_de_rightctime:
+  mean: 0.3684367111111112
+  std: 0.2143328682171914
+  min: 0.0
+  max: 0.5301205
+
+jitterDDP_de_duration:
+  mean: 500.0
+  std: 0.0
+  min: 500.0
+  max: 500.0
+
+shimmerLocal_de_max:
+  mean: 0.21135947407407404
+  std: 0.11543298015544175
+  min: 0.0
+  max: 0.2853911
+
+shimmerLocal_de_min:
+  mean: -0.20661409629629635
+  std: 0.11376824984263635
+  min: -0.2893682
+  max: 0.0
+
+shimmerLocal_de_range:
+  mean: 0.41797355185185187
+  std: 0.22840723543293048
+  min: 0.0
+  max: 0.5688617
+
+shimmerLocal_de_maxPos:
+  mean: 207.22222222222223
+  std: 170.50520707892073
+  min: 0.0
+  max: 492.0
+
+shimmerLocal_de_minPos:
+  mean: 195.77777777777777
+  std: 170.29416479757185
+  min: 0.0
+  max: 486.0
+
+shimmerLocal_de_maxameandist:
+  mean: 0.21122576296296294
+  std: 0.11536171568678481
+  min: 0.0
+  max: 0.2853827
+
+shimmerLocal_de_minameandist:
+  mean: 0.20674780370370371
+  std: 0.11383426062148588
+  min: 0.0
+  max: 0.2894634
+
+shimmerLocal_de_linregc1:
+  mean: -4.379922962962963e-07
+  std: 6.3701401067766934e-06
+  min: -9.60812e-06
+  max: 2.10212e-05
+
+shimmerLocal_de_linregc2:
+  mean: 0.00024299697777777781
+  std: 0.0014363891432301302
+  min: -0.004451988
+  max: 0.002325426
+
+shimmerLocal_de_linregerrA:
+  mean: 0.04308537851851851
+  std: 0.02568468349968259
+  min: 0.0
+  max: 0.07020427
+
+shimmerLocal_de_linregerrQ:
+  mean: 0.004935757185185186
+  std: 0.003018297837633261
+  min: 0.0
+  max: 0.008945035
+
+shimmerLocal_de_qregc1:
+  mean: 9.361172703703704e-09
+  std: 5.801382101001757e-08
+  min: -7.507292e-08
+  max: 1.598108e-07
+
+shimmerLocal_de_qregc2:
+  mean: -5.109217081481481e-06
+  std: 2.5836643891872493e-05
+  min: -7.272488e-05
+  max: 3.951519e-05
+
+shimmerLocal_de_qregc3:
+  mean: 0.000630708611111111
+  std: 0.002297932046108641
+  min: -0.004305782
+  max: 0.006293112
+
+shimmerLocal_de_qregerrA:
+  mean: 21.55148159259259
+  std: 12.838981713839843
+  min: 0.0
+  max: 35.10123
+
+shimmerLocal_de_qregerrQ:
+  mean: 2.4673007407407406
+  std: 1.5089229434408504
+  min: 0.0
+  max: 4.472466
+
+shimmerLocal_de_centroid:
+  mean: 0.4060054074074074
+  std: 0.23223670181595052
+  min: 0.0
+  max: 0.8195835
+
+shimmerLocal_de_variance:
+  mean: 0.004936575222222222
+  std: 0.0030186310362503516
+  min: 0.0
+  max: 0.008946958
+
+shimmerLocal_de_stddev:
+  mean: 0.061417352592592594
+  std: 0.03477458799855386
+  min: 0.0
+  max: 0.09458836
+
+shimmerLocal_de_skewness:
+  mean: 0.030321350111111114
+  std: 0.18043056503346883
+  min: -0.6700821
+  max: 0.3713812
+
+shimmerLocal_de_kurtosis:
+  mean: 4.0801696666666665
+  std: 4.144909116963065
+  min: 0.0
+  max: 22.10233
+
+shimmerLocal_de_quartile1:
+  mean: -0.02911725185185185
+  std: 0.019227094630218704
+  min: -0.05367925
+  max: 0.0
+
+shimmerLocal_de_quartile2:
+  mean: -0.00020545505592592592
+  std: 0.0005406890484246653
+  min: -0.002305247
+  max: 7.886309e-05
+
+shimmerLocal_de_quartile3:
+  mean: 0.029124688148148146
+  std: 0.019080588769520963
+  min: 0.0
+  max: 0.05312067
+
+shimmerLocal_de_upleveltime25:
+  mean: 0.7317037037037037
+  std: 0.3989774251194994
+  min: 0.0
+  max: 0.982
+
+shimmerLocal_de_downleveltime25:
+  mean: 0.2682962962962963
+  std: 0.3989774251194994
+  min: 0.018
+  max: 1.0
+
+shimmerLocal_de_upleveltime50:
+  mean: 0.3894814814814815
+  std: 0.2439795657222721
+  min: 0.0
+  max: 0.878
+
+shimmerLocal_de_downleveltime50:
+  mean: 0.6105185185185186
+  std: 0.2439795657222721
+  min: 0.122
+  max: 1.0
+
+shimmerLocal_de_upleveltime75:
+  mean: 0.042
+  std: 0.02822437571701781
+  min: 0.0
+  max: 0.088
+
+shimmerLocal_de_downleveltime75:
+  mean: 0.958
+  std: 0.028224375717017806
+  min: 0.912
+  max: 1.0
+
+shimmerLocal_de_upleveltime90:
+  mean: 0.009333333333333334
+  std: 0.0074627278988522484
+  min: 0.0
+  max: 0.026
+
+shimmerLocal_de_downleveltime90:
+  mean: 0.9906666666666667
+  std: 0.007462727898852255
+  min: 0.974
+  max: 1.0
+
+shimmerLocal_de_risetime:
+  mean: 0.3492911851851852
+  std: 0.20548868884308583
+  min: 0.0
+  max: 0.50501
+
+shimmerLocal_de_falltime:
+  mean: 0.3539672
+  std: 0.20530920544476325
+  min: 0.0
+  max: 0.503006
+
+shimmerLocal_de_leftctime:
+  mean: 0.35951212592592585
+  std: 0.20781135389710023
+  min: 0.0
+  max: 0.504016
+
+shimmerLocal_de_rightctime:
+  mean: 0.3739402000000001
+  std: 0.2165549763517622
+  min: 0.0
+  max: 0.5341365
+
+shimmerLocal_de_duration:
+  mean: 500.0
+  std: 0.0
+  min: 500.0
+  max: 500.0
+
+pcm_loudness_max:
+  mean: 2.5343349185185184
+  std: 1.006392467409211
+  min: 0.5175468
+  max: 3.414265
+
+pcm_loudness_min:
+  mean: 0.012804473592592592
+  std: 0.009807884014229514
+  min: 0.0
+  max: 0.03396242
+
+pcm_loudness_range:
+  mean: 2.521530374074074
+  std: 1.0024149447423787
+  min: 0.5120808
+  max: 3.399073
+
+pcm_loudness_maxPos:
+  mean: 237.33333333333334
+  std: 128.6506898543494
+  min: 11.0
+  max: 430.0
+
+pcm_loudness_minPos:
+  mean: 264.8888888888889
+  std: 155.45870916873798
+  min: 2.0
+  max: 495.0
+
+pcm_loudness_maxameandist:
+  mean: 1.9050179222222223
+  std: 0.8079982312161634
+  min: 0.2921261
+  max: 2.703504
+
+pcm_loudness_minameandist:
+  mean: 0.6165125592592593
+  std: 0.22636795748470143
+  min: 0.2199547
+  max: 0.8806708
+
+pcm_loudness_linregc1:
+  mean: 6.693102307407396e-06
+  std: 0.0008635046866979119
+  min: -0.002004076
+  max: 0.001625772
+
+pcm_loudness_linregc2:
+  mean: 0.6276470707407408
+  std: 0.3294187373305835
+  min: 0.03535701
+  max: 1.258314
+
+pcm_loudness_linregerrA:
+  mean: 0.3562348074074074
+  std: 0.14851665395824523
+  min: 0.08847785
+  max: 0.5044779
+
+pcm_loudness_linregerrQ:
+  mean: 0.24466710444444445
+  std: 0.13610431778072682
+  min: 0.01144003
+  max: 0.4184037
+
+pcm_loudness_qregc1:
+  mean: -9.15315115925926e-07
+  std: 4.503990019410523e-06
+  min: -1.13649e-05
+  max: 8.369371e-06
+
+pcm_loudness_qregc2:
+  mean: 0.0004634354244444444
+  std: 0.0022697970499320104
+  min: -0.003274413
+  max: 0.005381171
+
+pcm_loudness_qregc3:
+  mean: 0.5897374796296296
+  std: 0.3421480232648814
+  min: -0.02137885
+  max: 1.189969
+
+pcm_loudness_qregerrA:
+  mean: 175.02772333333334
+  std: 73.56016108195779
+  min: 44.07925
+  max: 250.4629
+
+pcm_loudness_qregerrQ:
+  mean: 118.79674974074072
+  std: 66.86132476066638
+  min: 5.710145
+  max: 197.0847
+
+pcm_loudness_centroid:
+  mean: 0.5010772333333333
+  std: 0.05451469395257646
+  min: 0.3888812
+  max: 0.6516131
+
+pcm_loudness_variance:
+  mean: 0.25962681407407406
+  std: 0.1419862499874445
+  min: 0.01146601
+  max: 0.4490228
+
+pcm_loudness_stddev:
+  mean: 0.472183362962963
+  std: 0.19514112665665476
+  min: 0.1070795
+  max: 0.6700916
+
+pcm_loudness_skewness:
+  mean: 1.1059185629629629
+  std: 0.5193385791243328
+  min: 0.1822131
+  max: 2.360717
+
+pcm_loudness_kurtosis:
+  mean: 4.470487592592593
+  std: 2.345143881987632
+  min: 2.359869
+  max: 13.90567
+
+pcm_loudness_quartile1:
+  mean: 0.2774872407407407
+  std: 0.08604561600800098
+  min: 0.1404509
+  max: 0.4397331
+
+pcm_loudness_quartile2:
+  mean: 0.4988804111111111
+  std: 0.17703212243810734
+  min: 0.2174186
+  max: 0.7877995
+
+pcm_loudness_quartile3:
+  mean: 0.8678158185185184
+  std: 0.33731247423982463
+  min: 0.3029049
+  max: 1.237807
+
+pcm_loudness_upleveltime25:
+  mean: 0.43466666666666665
+  std: 0.1792402770670614
+  min: 0.148
+  max: 0.798
+
+pcm_loudness_downleveltime25:
+  mean: 0.5653333333333335
+  std: 0.17924027706706136
+  min: 0.202
+  max: 0.852
+
+pcm_loudness_upleveltime50:
+  mean: 0.15051851851851852
+  std: 0.10015002990528005
+  min: 0.002
+  max: 0.408
+
+pcm_loudness_downleveltime50:
+  mean: 0.8494814814814815
+  std: 0.10015002990528007
+  min: 0.592
+  max: 0.998
+
+pcm_loudness_upleveltime75:
+  mean: 0.028666666666666667
+  std: 0.01913514688090599
+  min: 0.002
+  max: 0.082
+
+pcm_loudness_downleveltime75:
+  mean: 0.9713333333333333
+  std: 0.019135146880905986
+  min: 0.918
+  max: 0.998
+
+pcm_loudness_upleveltime90:
+  mean: 0.006074074074074075
+  std: 0.0042419691175563734
+  min: 0.002
+  max: 0.016
+
+pcm_loudness_downleveltime90:
+  mean: 0.993925925925926
+  std: 0.004241969117556377
+  min: 0.984
+  max: 0.998
+
+pcm_loudness_risetime:
+  mean: 0.5042677962962963
+  std: 0.012153714895470036
+  min: 0.4829659
+  max: 0.5270541
+
+pcm_loudness_falltime:
+  mean: 0.49573220370370374
+  std: 0.012153714895470041
+  min: 0.4729459
+  max: 0.5170341
+
+pcm_loudness_leftctime:
+  mean: 0.5142793481481482
+  std: 0.009505915447857892
+  min: 0.4939759
+  max: 0.5321285
+
+pcm_loudness_rightctime:
+  mean: 0.48572065185185176
+  std: 0.009505915447857892
+  min: 0.4678715
+  max: 0.5060241
+
+pcm_loudness_duration:
+  mean: 500.0
+  std: 0.0
+  min: 500.0
+  max: 500.0
+

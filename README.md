@@ -1,1 +1,1 @@
-# vocal-synchrony
+# Vocal Synchrony data tool
