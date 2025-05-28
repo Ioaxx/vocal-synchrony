@@ -3,7 +3,7 @@ import pandas as pd  # Import the pandas library for data handling
 
 
 # Define the keywords for the features we are interested in
-keywords = ['F0finEnv', 'jitter', 'shimmer', 'loudness']
+keywords = ['F0finEnv', 'jitter', 'shimmer', 'loudness', 'pcm_fftMag_mfcc']
 
 
 # Define a function to process a CSV file and generate two output files:
