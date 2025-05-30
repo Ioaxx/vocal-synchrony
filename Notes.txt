@@ -1,0 +1,51 @@
+Group 
+
+Extract total values for:
+
+Pitch:
+
+pcm_fftMag_mfcc[0-14]_centroid, jitterLocal_de_*, jitterDDP_de_*
+
+
+Intensity (loudness):
+
+pcm_loudness_*
+
+
+
+
+Jitter/shimmer:
+
+jitterLocal_*, jitterDDP_*, shimmerLocal_*
+
+
+
+Speech rate:
+
+Not directly labeled; could infer from *_duration, *_risetime, *_falltime
+
+
+
+
+Timbre:
+
+pcm_fftMag_mfcc[0-14]_*,
+
+
+
+
+Vocal Energy:
+
+Overlaps with pcm_loudness_* and possibly pcm_fftMag_*_centroid
+
+
+
+Temporal Alignment/lag
+
+*_ctime, *_maxPos, *_minPos, *_upleveltime*, *_downleveltime*
+
+
+
+grafice de arii bazate pe markers pitch timber etc, toate baselineurile intr-o culoare de arie si toate arousurile pe arie ca sa vad daca sunt mariter pt fiecare marker
+
+

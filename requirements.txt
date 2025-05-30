@@ -1,1 +1,9 @@
 pandas
+spicy
+statsmodels
+scikit-learn
+matplotlib
+tk
+PyQt5
+PyQt6
+seaborn
