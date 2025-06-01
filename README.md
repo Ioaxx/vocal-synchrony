@@ -102,6 +102,10 @@ python3 -m venv ./.venv
 
 ![permutation_pvalue_distribution](synchrony_results/permutation_pvalue_distribution.png)
 
+![annotated_features](output/annotated_features.png)
+
+![vocal_features.png](output/vocal_features.png)
+
 ## Integrated Conclusions
 
     Loudness is the most robust marker of emotional arousal for both genders.
