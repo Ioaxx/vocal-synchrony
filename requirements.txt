@@ -7,3 +7,7 @@ tk
 PyQt5
 PyQt6
 seaborn
+numpy
+scipy
+fastdtw
+dtw-python
