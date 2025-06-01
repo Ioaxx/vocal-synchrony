@@ -10,4 +10,5 @@ seaborn
 numpy
 scipy
 fastdtw
-dtw-python
+dtaidistance
+
