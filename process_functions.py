@@ -60,6 +60,18 @@ def load_all_data():
     return data, file, data_mfc
 
 
+def load_and_save_processed_data():
+    for c in couples:
+        for g in genders:
+            for s in states:
+                print(f"Loading and processing: {c} {g} {s}")
+                _, _, processed = load_clean(c, g, s)
+                
+                # Save to file
+                out_path = f"./output/processed/{c}_{g}_{s}.csv"
+                processed.to_csv(out_path, index=False)
+
+
 def load_clean(couple,gender,state):
     filename = f"{couple}_{gender}_{state}.csv"
     path = os.path.join(DATA_FOLDER, filename)
