@@ -9,5 +9,8 @@ PyQt6
 seaborn
 numpy
 scipy
+<<<<<<< Updated upstream
 fastdtw
 dtw-python
+=======
+>>>>>>> Stashed changes

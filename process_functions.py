@@ -9,6 +9,7 @@ import matplotlib
 matplotlib.use('Qt5Agg')
 import matplotlib.pyplot as plt
 import seaborn as sns
+import numpy as np
 
 DATA_FOLDER="input/"
 
@@ -35,7 +36,7 @@ def summarize_voice_features(df):
         if valid_cols:
             summary[group] = df[valid_cols].mean(axis=1)
         else:
-            summary_dict[group] = pd.Series([np.nan]*len(df), index=df.index)
+            summary[group] = pd.Series([np.nan]*len(df), index=df.index)
             
     return pd.DataFrame(summary)  # Corrected line
 

@@ -86,6 +86,13 @@ def main():
     plt.tight_layout()
     plt.savefig("./output/vocal_features.png", dpi=300)
     print("Visualization saved to output/vocal_features.png")
+    
+    # Add these to your main() after existing visualizations
+    print("Creating state comparison visualizations...")
+    plot_state_comparisons(df_with_markers)
+    print("Creating gender comparison visualizations...")
+    plot_gender_comparisons(df_with_markers)
+    
 
 if __name__ == "__main__":
     main()
