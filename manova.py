@@ -24,7 +24,17 @@ def run_manova(directory, gender):
 
     maov = MANOVA.from_formula(formula, data=df)
     print(f"MANOVA results for {gender}:\n")
-    print(maov.mv_test())
+    results = maov.mv_test()
+    print(results)
+
+    # Write results to file
+    output_dir = "./output/manova"
+    os.makedirs(output_dir, exist_ok=True)
+    with open(os.path.join(output_dir, "manova.txt"), "a", encoding="utf-8") as f:
+        f.write(f"MANOVA results for {gender}:\n")
+        f.write(str(results))
+        f.write("\n\n")
+
     return df, numeric_cols
 
 def plot_pca(df, numeric_cols, gender):
