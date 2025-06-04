@@ -1,6 +1,6 @@
 # Vocal Synchrony Data Tool: Complete Project Overview and Results
 
-This project provides a modular, Python-based toolkit for analyzing vocal synchrony and acoustic features (pitch, loudness, timbre, etc.) across emotional states (baseline/normal vs. aroused), with both individual and dyadic (synchrony) analyses. The workflow is designed for reproducibility, statistical rigor, and clear visualization.
+This project provides a modular, Python-based toolkit for analyzing vocal synchrony and acoustic features (pitch, loudness, timbre, etc.) across emotional states (baseline/baseline vs. aroused), with both individual and dyadic (synchrony) analyses. The workflow is designed for reproducibility, statistical rigor, and clear visualization.
 Project Structure and Workflow
 
     calculate_synchrony.py: Computes synchrony metrics, including permutation tests using Dynamic Time Warping (DTW)—already implemented and central to your synchrony results.
@@ -35,7 +35,7 @@ python3 -m venv ./.venv
 
     Males:
 
-        Loudness: Highest F-statistic and most significant difference between aroused and normal.
+        Loudness: Highest F-statistic and most significant difference between aroused and baseline.
 
         Speechrate, shimmer, timbre, energy, alignment, pitch: All significant.
 
@@ -53,7 +53,7 @@ python3 -m venv ./.venv
 
     Females:
 
-        PCA: Clear separation between aroused and normal states, showing robust multivariate discrimination.
+        PCA: Clear separation between aroused and baseline states, showing robust multivariate discrimination.
 
     Males:
 
@@ -63,7 +63,7 @@ python3 -m venv ./.venv
 
     Males:
 
-        Most features (loudness, speechrate, timbre, alignment, shimmer, pitch) decrease from normal to aroused (negative t-statistics, significant).
+        Most features (loudness, speechrate, timbre, alignment, shimmer, pitch) decrease from baseline to aroused (negative t-statistics, significant).
 
         Energy increases (positive t-statistic, significant).
 
@@ -76,13 +76,13 @@ python3 -m venv ./.venv
 
         Aroused state: Permutation p-values cluster near zero, indicating significantly stronger synchrony.
 
-        Normal state: P-values are more widely distributed, reflecting weaker or more variable synchrony.
+        baseline state: P-values are more widely distributed, reflecting weaker or more variable synchrony.
 
     Pearson Correlation:
 
         Aroused state: Positive, tightly clustered correlations—consistent, strong synchrony.
 
-        Normal state: More variable, including negative correlations.
+        baseline state: More variable, including negative correlations.
 
 ## Plots
 
@@ -112,7 +112,7 @@ python3 -m venv ./.venv
 
     Speechrate, pitch, timbre, shimmer, alignment also reliably differentiate states; jitter generally does not.
 
-    Females: Multivariate patterns (PCA) clearly separate aroused from normal states.
+    Females: Multivariate patterns (PCA) clearly separate aroused from baseline states.
 
     Males: Strong individual feature effects, but no clear multivariate separation.
 

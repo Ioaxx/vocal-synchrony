@@ -16,7 +16,7 @@ DATA_FOLDER="input/"
 
 couples = [f"couple{i}" for i in range(1, 8)]
 genders = ['female', 'male']
-states = ['normal','aroused']
+states = ['baseline','aroused']
 
 def summarize_voice_features(df):
     feature_groups = {
@@ -138,16 +138,16 @@ def t_test(df1, df2):
     return pd.DataFrame(results).sort_values('p_value')
 
 
-def plot_mfcc_distance_changes(results_normal, results_aroused):
+def plot_mfcc_distance_changes(results_baseline, results_aroused):
     # Flatten the nested lists ([[value]]) to scalars
-    normal_flat = {k: v[0][0] for k, v in results_normal.items()}
+    baseline_flat = {k: v[0][0] for k, v in results_baseline.items()}
     aroused_flat = {k: v[0][0] for k, v in results_aroused.items()}
 
     # Create a DataFrame for plotting
     plot_df = pd.DataFrame({
-        'couple': list(normal_flat.keys()) * 2,
-        'state': ['normal'] * len(normal_flat) + ['aroused'] * len(aroused_flat),
-        'mfcc_distance': list(normal_flat.values()) + list(aroused_flat.values())
+        'couple': list(baseline_flat.keys()) * 2,
+        'state': ['baseline'] * len(baseline_flat) + ['aroused'] * len(aroused_flat),
+        'mfcc_distance': list(baseline_flat.values()) + list(aroused_flat.values())
     })
 
     plt.figure(figsize=(10, 6))
@@ -198,12 +198,12 @@ def run_t_tests(df):
     for couple in df['couple'].unique():
         couple_df = df[df['couple'] == couple]
         for attr in ['pitch', 'loudness', 'jitter', 'shimmer', 'speechrate', 'timbre', 'energy', 'alignment']:
-            # Male normal vs Female normal
-            male_normal = couple_df[(couple_df['gender'] == 'male') & (couple_df['state'] == 'normal')]
-            female_normal = couple_df[(couple_df['gender'] == 'female') & (couple_df['state'] == 'normal')]
-            if not male_normal.empty and not female_normal.empty:
-                t_stat, p_val = ttest_ind(male_normal[attr], female_normal[attr], equal_var=False)
-                results.append({'couple': couple, 'attribute': attr, 'comparison': 'male_normal_vs_female_normal', 't_stat': t_stat, 'p_value': p_val})
+            # Male baseline vs Female baseline
+            male_baseline = couple_df[(couple_df['gender'] == 'male') & (couple_df['state'] == 'baseline')]
+            female_baseline = couple_df[(couple_df['gender'] == 'female') & (couple_df['state'] == 'baseline')]
+            if not male_baseline.empty and not female_baseline.empty:
+                t_stat, p_val = ttest_ind(male_baseline[attr], female_baseline[attr], equal_var=False)
+                results.append({'couple': couple, 'attribute': attr, 'comparison': 'male_baseline_vs_female_baseline', 't_stat': t_stat, 'p_value': p_val})
             # Male aroused vs Female aroused
             male_aroused = couple_df[(couple_df['gender'] == 'male') & (couple_df['state'] == 'aroused')]
             female_aroused = couple_df[(couple_df['gender'] == 'female') & (couple_df['state'] == 'aroused')]
@@ -254,7 +254,7 @@ def create_complete_feature_markers(data):
     
     for couple in data:
         for gender in ['male', 'female']:
-            for state in ['normal', 'aroused']:
+            for state in ['baseline', 'aroused']:
                 df = data[couple][gender][state]
                 
                 feature_groups = {
@@ -285,7 +285,7 @@ def run_t_tests2(df):
     results = []
     for couple in df['couple'].unique():
         couple_df = df[df['couple'] == couple]
-        for state in ['normal', 'aroused']:
+        for state in ['baseline', 'aroused']:
             state_df = couple_df[couple_df['state'] == state]
             male = state_df[state_df['gender'] == 'male']
             female = state_df[state_df['gender'] == 'female']

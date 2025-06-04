@@ -34,7 +34,7 @@ def anova_summary(df, features, formula_base="C(state) * C(sex)", alpha=0.05):
     return pd.DataFrame(results)  # Return results as a DataFrame
 
 
-# Perform paired t-tests comparing aroused vs. normal state for pitch features
+# Perform paired t-tests comparing aroused vs. baseline state for pitch features
 def ttest_arousal_vs_baseline_for_pitch(df, pitch_cols):
     results = []
     # Group by couple and sex to perform paired comparisons correctly
@@ -46,7 +46,7 @@ def ttest_arousal_vs_baseline_for_pitch(df, pitch_cols):
 
         for (cid, sex), group in grouped:
             # Extract pitch values for each emotional state
-            baseline_vals = group[group['state'] == 'normal'][col].dropna()
+            baseline_vals = group[group['state'] == 'baseline'][col].dropna()
             aroused_vals = group[group['state'] == 'aroused'][col].dropna()
             
             # Skip if either state is missing data

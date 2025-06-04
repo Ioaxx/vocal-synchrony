@@ -18,18 +18,18 @@ def run_anova_per_feature(directory):
     for gender in ['female', 'male']:
         print(f"\nRunning ANOVA for: {gender}")
 
-        normal_df = gather_data_for_gender_state(directory, gender, "normal")
+        baseline_df = gather_data_for_gender_state(directory, gender, "baseline")
         aroused_df = gather_data_for_gender_state(directory, gender, "aroused")
 
-        common_features = list(set(normal_df.columns) & set(aroused_df.columns))
+        common_features = list(set(baseline_df.columns) & set(aroused_df.columns))
 
         gender_results = []
 
         for feature in common_features:
             # Only run ANOVA on numeric features
-            if pd.api.types.is_numeric_dtype(normal_df[feature]):
+            if pd.api.types.is_numeric_dtype(baseline_df[feature]):
                 # Drop NaNs to be safe
-                group1 = normal_df[feature].dropna()
+                group1 = baseline_df[feature].dropna()
                 group2 = aroused_df[feature].dropna()
 
                 if len(group1) > 1 and len(group2) > 1:
@@ -51,7 +51,7 @@ def plot_anova_results(df, gender):
     plt.figure(figsize=(10, 6))
     sns.barplot(data=df, x='feature', y='F_stat', hue='significant', palette={True: 'tomato', False: 'gray'})
 
-    plt.title(f"ANOVA F-Statistics per Feature ({gender.capitalize()} Aroused vs Normal)")
+    plt.title(f"ANOVA F-Statistics per Feature ({gender.capitalize()} aroused vs baseline)")
     plt.ylabel("F-Statistic")
     plt.xlabel("Feature")
     plt.xticks(rotation=45)

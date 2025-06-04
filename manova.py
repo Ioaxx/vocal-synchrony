@@ -7,7 +7,7 @@ import seaborn as sns
 
 def gather_data_for_gender(directory, gender):
     dfs = []
-    for state in ['normal', 'aroused']:
+    for state in ['baseline', 'aroused']:
         for filename in os.listdir(directory):
             if filename.endswith(".csv") and f"{gender}_{state}" in filename:
                 df = pd.read_csv(os.path.join(directory, filename))

@@ -17,17 +17,17 @@ def run_ttests_per_feature(directory):
         print(f"\nRunning t-tests for: {gender}")
 
         # Load all files across couples
-        normal_df = gather_data_for_gender_state(directory, gender, "normal")
+        baseline_df = gather_data_for_gender_state(directory, gender, "baseline")
         aroused_df = gather_data_for_gender_state(directory, gender, "aroused")
 
         # Ensure both datasets have the same columns
-        common_features = list(set(normal_df.columns) & set(aroused_df.columns))
+        common_features = list(set(baseline_df.columns) & set(aroused_df.columns))
 
         gender_results = []
 
         for feature in common_features:
-            if pd.api.types.is_numeric_dtype(normal_df[feature]):
-                stat, p = ttest_ind(aroused_df[feature], normal_df[feature], equal_var=False, nan_policy='omit')
+            if pd.api.types.is_numeric_dtype(baseline_df[feature]):
+                stat, p = ttest_ind(aroused_df[feature], baseline_df[feature], equal_var=False, nan_policy='omit')
                 gender_results.append({
                     'feature': feature,
                     't_stat': stat,

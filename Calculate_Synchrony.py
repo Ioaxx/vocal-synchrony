@@ -13,7 +13,7 @@ output_folder = './synchrony_results'
 os.makedirs(output_folder, exist_ok=True)
 
 couples = ['couple1', 'couple2', 'couple3', "couple4", "couple5", "couple6", "couple7"]
-states = ['normal', 'aroused']
+states = ['baseline', 'aroused']
 feature_name = 'F0finEnv_max'
 num_permutations = 1000
 
